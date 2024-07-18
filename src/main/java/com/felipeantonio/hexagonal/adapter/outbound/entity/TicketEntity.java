@@ -1,9 +1,9 @@
-package com.felipeantonio.hexagonal;
+package com.felipeantonio.hexagonal.adapter.outbound.entity;
 
 import lombok.Data;
 
 @Data
-public class Ticket {
+public class TicketEntity {
 
     private Long id;
     private String subject;

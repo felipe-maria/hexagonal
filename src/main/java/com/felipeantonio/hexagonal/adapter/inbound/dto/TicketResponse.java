@@ -1,9 +1,9 @@
-package com.felipeantonio.hexagonal;
+package com.felipeantonio.hexagonal.adapter.inbound.dto;
 
 import lombok.Data;
 
 @Data
-public class TicketDto {
+public class TicketResponse {
 
     private Long id;
     private String subject;
